@@ -5,16 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Remake Barber - Category</title>
-	<link rel="icon" href="img/Fevicon.png" type="image/png">
+	<link rel="icon" href="{{ asset('assets') }}/img/Fevicon.png" type="image/png">
 
-  <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
-  <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
-  <link rel="stylesheet" href="vendors/themify-icons/themify-icons.css">
-  <link rel="stylesheet" href="vendors/linericon/style.css">
-  <link rel="stylesheet" href="vendors/owl-carousel/owl.theme.default.min.css">
-  <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="{{ asset('assets') }}/vendors/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="{{ asset('assets') }}/vendors/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="{{ asset('assets') }}/vendors/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="{{ asset('assets') }}/vendors/linericon/style.css">
+  <link rel="stylesheet" href="{{ asset('assets') }}/vendors/owl-carousel/owl.theme.default.min.css">
+  <link rel="stylesheet" href="{{ asset('assets') }}/vendors/owl-carousel/owl.carousel.min.css">
 
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="{{ asset('assets') }}/css/style.css">
 </head>
 <body>
   <!--================Header Menu Area =================-->
@@ -23,7 +23,7 @@
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container box_1620">
           <!-- Brand and toggle get grouped for better mobile display -->
-          <a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
+          <a class="navbar-brand logo_h" href="index.html"><img src="{{ asset('assets') }}/img/logo.png" alt=""></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -32,7 +32,7 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
             <ul class="nav navbar-nav menu_nav justify-content-center">
-              <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li> 
+              <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
               <li class="nav-item submenu dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                   aria-expanded="false">Categories</a>
@@ -44,7 +44,7 @@
               </li>
               <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
             </ul>
-            
+
             <!-- Add new blog -->
             <a href="#" class="btn btn-sm btn-primary mr-2">Add New</a>
             <!-- End - Add new blog -->
@@ -59,14 +59,14 @@
                 </ul>
               </li> -->
             </ul>
-          </div> 
+          </div>
         </div>
       </nav>
     </div>
   </header>
   <!--================Header Menu Area =================-->
-  
-  <!--================ Hero sm Banner start =================-->        
+
+  <!--================ Hero sm Banner start =================-->
   <section class="mb-30px">
     <div class="container">
       <div class="hero-banner hero-banner--sm">
@@ -82,8 +82,8 @@
       </div>
     </div>
   </section>
-  <!--================ Hero sm Banner end =================-->      
-  
+  <!--================ Hero sm Banner end =================-->
+
 
   <!--================ Start Blog Post Area =================-->
   <section class="blog-post-area section-margin">
@@ -94,7 +94,7 @@
             <div class="col-md-6">
               <div class="single-recent-blog-post card-view">
                 <div class="thumb">
-                  <img class="card-img rounded-0" src="img/blog/thumb/thumb-card1.png" alt="">
+                  <img class="card-img rounded-0" src="{{ asset('assets') }}/img/blog/thumb/thumb-card1.png" alt="">
                   <ul class="thumb-info">
                     <li><a href="#"><i class="ti-user"></i>Admin</a></li>
                     <li><a href="#"><i class="ti-themify-favicon"></i>2 Comments</a></li>
@@ -102,7 +102,7 @@
                 </div>
                 <div class="details mt-20">
                   <a href="blog-single.html">
-                    <h3>Fast cars and rickety bridges as 
+                    <h3>Fast cars and rickety bridges as
                         he grand tour returns</h3>
                   </a>
                   <p>Vel aliquam quis, nulla pede mi commodo no tristique nam hac luctus torquent velit felis lone commodo pellentesque</p>
@@ -113,7 +113,7 @@
             <div class="col-md-6">
               <div class="single-recent-blog-post card-view">
                 <div class="thumb">
-                  <img class="card-img rounded-0" src="img/blog/thumb/thumb-card2.png" alt="">
+                  <img class="card-img rounded-0" src="{{ asset('assets') }}/img/blog/thumb/thumb-card2.png" alt="">
                   <ul class="thumb-info">
                     <li><a href="#"><i class="ti-user"></i>Admin</a></li>
                     <li><a href="#"><i class="ti-themify-favicon"></i>2 Comments</a></li>
@@ -132,7 +132,7 @@
             <div class="col-md-6">
               <div class="single-recent-blog-post card-view">
                 <div class="thumb">
-                  <img class="card-img rounded-0" src="img/blog/thumb/thumb-card3.png" alt="">
+                  <img class="card-img rounded-0" src="{{ asset('assets') }}/img/blog/thumb/thumb-card3.png" alt="">
                   <ul class="thumb-info">
                     <li><a href="#"><i class="ti-user"></i>Admin</a></li>
                     <li><a href="#"><i class="ti-themify-favicon"></i>2 Comments</a></li>
@@ -140,7 +140,7 @@
                 </div>
                 <div class="details mt-20">
                   <a href="blog-single.html">
-                    <h3>Fast cars and rickety bridges as 
+                    <h3>Fast cars and rickety bridges as
                         he grand tour returns</h3>
                   </a>
                   <p>Vel aliquam quis, nulla pede mi commodo no tristique nam hac luctus torquent velit felis lone commodo pellentesque</p>
@@ -151,7 +151,7 @@
             <div class="col-md-6">
               <div class="single-recent-blog-post card-view">
                 <div class="thumb">
-                  <img class="card-img rounded-0" src="img/blog/thumb/thumb-card4.png" alt="">
+                  <img class="card-img rounded-0" src="{{ asset('assets') }}/img/blog/thumb/thumb-card4.png" alt="">
                   <ul class="thumb-info">
                     <li><a href="#"><i class="ti-user"></i>Admin</a></li>
                     <li><a href="#"><i class="ti-themify-favicon"></i>2 Comments</a></li>
@@ -170,7 +170,7 @@
             <div class="col-md-6">
               <div class="single-recent-blog-post card-view">
                 <div class="thumb">
-                  <img class="card-img rounded-0" src="img/blog/thumb/thumb-card5.png" alt="">
+                  <img class="card-img rounded-0" src="{{ asset('assets') }}/img/blog/thumb/thumb-card5.png" alt="">
                   <ul class="thumb-info">
                     <li><a href="#"><i class="ti-user"></i>Admin</a></li>
                     <li><a href="#"><i class="ti-themify-favicon"></i>2 Comments</a></li>
@@ -178,7 +178,7 @@
                 </div>
                 <div class="details mt-20">
                   <a href="blog-single.html">
-                    <h3>Fast cars and rickety bridges as 
+                    <h3>Fast cars and rickety bridges as
                         he grand tour returns</h3>
                   </a>
                   <p>Vel aliquam quis, nulla pede mi commodo no tristique nam hac luctus torquent velit felis lone commodo pellentesque</p>
@@ -189,7 +189,7 @@
             <div class="col-md-6">
               <div class="single-recent-blog-post card-view">
                 <div class="thumb">
-                  <img class="card-img rounded-0" src="img/blog/thumb/thumb-card6.png" alt="">
+                  <img class="card-img rounded-0" src="{{ asset('assets') }}/img/blog/thumb/thumb-card6.png" alt="">
                   <ul class="thumb-info">
                     <li><a href="#"><i class="ti-user"></i>Admin</a></li>
                     <li><a href="#"><i class="ti-themify-favicon"></i>2 Comments</a></li>
@@ -208,7 +208,7 @@
             <div class="col-md-6">
               <div class="single-recent-blog-post card-view">
                 <div class="thumb">
-                  <img class="card-img rounded-0" src="img/blog/thumb/thumb-card7.png" alt="">
+                  <img class="card-img rounded-0" src="{{ asset('assets') }}/img/blog/thumb/thumb-card7.png" alt="">
                   <ul class="thumb-info">
                     <li><a href="#"><i class="ti-user"></i>Admin</a></li>
                     <li><a href="#"><i class="ti-themify-favicon"></i>2 Comments</a></li>
@@ -216,7 +216,7 @@
                 </div>
                 <div class="details mt-20">
                   <a href="blog-single.html">
-                    <h3>Fast cars and rickety bridges as 
+                    <h3>Fast cars and rickety bridges as
                         he grand tour returns</h3>
                   </a>
                   <p>Vel aliquam quis, nulla pede mi commodo no tristique nam hac luctus torquent velit felis lone commodo pellentesque</p>
@@ -227,7 +227,7 @@
             <div class="col-md-6">
               <div class="single-recent-blog-post card-view">
                 <div class="thumb">
-                  <img class="card-img rounded-0" src="img/blog/thumb/thumb-card8.png" alt="">
+                  <img class="card-img rounded-0" src="{{ asset('assets') }}/img/blog/thumb/thumb-card8.png" alt="">
                   <ul class="thumb-info">
                     <li><a href="#"><i class="ti-user"></i>Admin</a></li>
                     <li><a href="#"><i class="ti-themify-favicon"></i>2 Comments</a></li>
@@ -247,7 +247,7 @@
 
           <!-- <div class="single-recent-blog-post">
             <div class="thumb">
-              <img class="img-fluid" src="img/blog/blog2.png" alt="">
+              <img class="img-fluid" src="{{ asset('assets') }}/img/blog/blog2.png" alt="">
               <ul class="thumb-info">
                 <li><a href="#"><i class="ti-user"></i>Admin</a></li>
                 <li><a href="#"><i class="ti-notepad"></i>January 12,2019</a></li>
@@ -267,7 +267,7 @@
 
           <div class="single-recent-blog-post">
             <div class="thumb">
-              <img class="img-fluid" src="img/blog/blog3.png" alt="">
+              <img class="img-fluid" src="{{ asset('assets') }}/img/blog/blog3.png" alt="">
               <ul class="thumb-info">
                 <li><a href="#"><i class="ti-user"></i>Admin</a></li>
                 <li><a href="#"><i class="ti-notepad"></i>January 12,2019</a></li>
@@ -287,7 +287,7 @@
 
           <div class="single-recent-blog-post">
             <div class="thumb">
-              <img class="img-fluid" src="img/blog/blog4.png" alt="">
+              <img class="img-fluid" src="{{ asset('assets') }}/img/blog/blog4.png" alt="">
               <ul class="thumb-info">
                 <li><a href="#"><i class="ti-user"></i>Admin</a></li>
                 <li><a href="#"><i class="ti-notepad"></i>January 12,2019</a></li>
@@ -305,7 +305,7 @@
             </div>
           </div> -->
 
-          
+
 
           <div class="row">
             <div class="col-lg-12">
@@ -388,7 +388,7 @@
               <div class="popular-post-list">
                 <div class="single-post-list">
                   <div class="thumb">
-                    <img class="card-img rounded-0" src="img/blog/thumb/thumb1.png" alt="">
+                    <img class="card-img rounded-0" src="{{ asset('assets') }}/img/blog/thumb/thumb1.png" alt="">
                     <ul class="thumb-info">
                       <li><a href="#">Adam Colinge</a></li>
                       <li><a href="#">Dec 15</a></li>
@@ -402,7 +402,7 @@
                 </div>
                 <div class="single-post-list">
                   <div class="thumb">
-                    <img class="card-img rounded-0" src="img/blog/thumb/thumb2.png" alt="">
+                    <img class="card-img rounded-0" src="{{ asset('assets') }}/img/blog/thumb/thumb2.png" alt="">
                     <ul class="thumb-info">
                       <li><a href="#">Adam Colinge</a></li>
                       <li><a href="#">Dec 15</a></li>
@@ -417,7 +417,7 @@
                 </div>
                 <div class="single-post-list">
                   <div class="thumb">
-                    <img class="card-img rounded-0" src="img/blog/thumb/thumb3.png" alt="">
+                    <img class="card-img rounded-0" src="{{ asset('assets') }}/img/blog/thumb/thumb3.png" alt="">
                     <ul class="thumb-info">
                       <li><a href="#">Adam Colinge</a></li>
                       <li><a href="#">Dec 15</a></li>
@@ -485,14 +485,14 @@
           <div class="single-footer-widget mail-chimp">
             <h6 class="mb-20">Instragram Feed</h6>
             <ul class="instafeed d-flex flex-wrap">
-              <li><img src="img/instagram/i1.jpg" alt=""></li>
-              <li><img src="img/instagram/i2.jpg" alt=""></li>
-              <li><img src="img/instagram/i3.jpg" alt=""></li>
-              <li><img src="img/instagram/i4.jpg" alt=""></li>
-              <li><img src="img/instagram/i5.jpg" alt=""></li>
-              <li><img src="img/instagram/i6.jpg" alt=""></li>
-              <li><img src="img/instagram/i7.jpg" alt=""></li>
-              <li><img src="img/instagram/i8.jpg" alt=""></li>
+              <li><img src="{{ asset('assets') }}/img/instagram/i1.jpg" alt=""></li>
+              <li><img src="{{ asset('assets') }}/img/instagram/i2.jpg" alt=""></li>
+              <li><img src="{{ asset('assets') }}/img/instagram/i3.jpg" alt=""></li>
+              <li><img src="{{ asset('assets') }}/img/instagram/i4.jpg" alt=""></li>
+              <li><img src="{{ asset('assets') }}/img/instagram/i5.jpg" alt=""></li>
+              <li><img src="{{ asset('assets') }}/img/instagram/i6.jpg" alt=""></li>
+              <li><img src="{{ asset('assets') }}/img/instagram/i7.jpg" alt=""></li>
+              <li><img src="{{ asset('assets') }}/img/instagram/i8.jpg" alt=""></li>
             </ul>
           </div>
         </div>
@@ -526,11 +526,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
   </footer>
   <!--================ End Footer Area =================-->
 
-  <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
-  <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
-  <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-  <script src="js/jquery.ajaxchimp.min.js"></script>
-  <script src="js/mail-script.js"></script>
-  <script src="js/main.js"></script>
+  <script src="{{ asset('assets') }}/vendors/jquery/jquery-3.2.1.min.js"></script>
+  <script src="{{ asset('assets') }}/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="{{ asset('assets') }}/vendors/owl-carousel/owl.carousel.min.js"></script>
+  <script src="{{ asset('assets') }}/js/jquery.ajaxchimp.min.js"></script>
+  <script src="{{ asset('assets') }}/js/mail-script.js"></script>
+  <script src="{{ asset('assets') }}/js/main.js"></script>
 </body>
 </html>
