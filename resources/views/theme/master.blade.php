@@ -7,12 +7,7 @@
 
 @include('theme.partials.header')
 
-<main class="site-main">
-    <!--================Hero Banner start =================-->
-    @include('theme.partials.hero')
-
-    @yield('content')
-</main>
+@yield('content')
 
 @include('theme.partials.footer')
 
