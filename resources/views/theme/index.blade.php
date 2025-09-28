@@ -1,5 +1,6 @@
 @extends('theme.master')
-
+@section('title','Sensive Blog - Home')
+@section('home-active','active')
 @section('content')
 
     <main class="site-main">

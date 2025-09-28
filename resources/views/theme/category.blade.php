@@ -1,5 +1,6 @@
 @extends('theme.master')
-
+@section('title','Remake Barber - Category')
+@section('category-active','active')
 @section('content')
 
   <!--================ Hero sm Banner start =================-->
