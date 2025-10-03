@@ -21,4 +21,19 @@ class ThemeController extends Controller
     {
         return view('theme.contact');
     }
+
+    public function blog()
+    {
+        return view('theme.blog');
+    }
+
+    public function login()
+    {
+        return view('theme.login');
+    }
+
+    public function register()
+    {
+        return view('theme.register');
+    }
 }
