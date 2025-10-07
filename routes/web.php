@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\SubscriberController;
 use App\Http\Controllers\ThemeController;
@@ -13,8 +14,11 @@ Route::controller(ThemeController::class)->name('theme.')->group(function () {
     Route::get('/blog', 'blog')->name('blog');
 });
 
-//
+//Subscribe Route
 Route::post('/subscriber/store', [SubscriberController::class, 'store'])->name('subscriber.store');
+
+//Contact Route
+Route::post('/contact/store', [ContactController::class, 'store'])->name('contact.store');
 
 Route::get('/dashboard', function () {
 //    return view('dashboard');
