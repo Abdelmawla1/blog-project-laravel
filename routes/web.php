@@ -12,7 +12,9 @@ Route::controller(ThemeController::class)->name('theme.')->group(function () {
 });
 
 Route::get('/dashboard', function () {
-    return view('dashboard');
+//    return view('dashboard');
+    return to_route('theme.index');
+    
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
