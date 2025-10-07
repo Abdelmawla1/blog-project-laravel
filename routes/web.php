@@ -1,9 +1,11 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\SubscriberController;
 use App\Http\Controllers\ThemeController;
 use Illuminate\Support\Facades\Route;
 
+// Theme Routes
 Route::controller(ThemeController::class)->name('theme.')->group(function () {
     Route::get('/', 'index')->name('index');
     Route::get('/category', 'category')->name('category');
@@ -11,10 +13,13 @@ Route::controller(ThemeController::class)->name('theme.')->group(function () {
     Route::get('/blog', 'blog')->name('blog');
 });
 
+//
+Route::post('/subscriber/store', [SubscriberController::class, 'store'])->name('subscriber.store');
+
 Route::get('/dashboard', function () {
 //    return view('dashboard');
     return to_route('theme.index');
-    
+
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
