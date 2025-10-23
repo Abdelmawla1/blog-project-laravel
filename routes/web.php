@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\CommentController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\SubscriberController;
@@ -25,6 +26,9 @@ Route::post('/subscriber/store', [SubscriberController::class, 'store'])->name('
 
 //Contact Route
 Route::post('/contact/store', [ContactController::class, 'store'])->name('contact.store');
+
+//Comment Route
+Route::post('/comments/store', [CommentController::class, 'store'])->name('comments.store');
 
 Route::get('/dashboard', function () {
 //    return view('dashboard');
