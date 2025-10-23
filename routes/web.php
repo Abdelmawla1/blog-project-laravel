@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BlogController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\SubscriberController;
@@ -9,10 +10,15 @@ use Illuminate\Support\Facades\Route;
 // Theme Routes
 Route::controller(ThemeController::class)->name('theme.')->group(function () {
     Route::get('/', 'index')->name('index');
-    Route::get('/category', 'category')->name('category');
+    Route::get('/category/{id}', 'category')->name('category');
     Route::get('/contact', 'contact')->name('contact');
-    Route::get('/blog', 'blog')->name('blog');
+//    Route::get('/blog', 'blog')->name('blog');
 });
+
+//Blog Routes
+Route::resource('blogs',BlogController::class);
+Route::get('/my-blogs', [BlogController::class, 'userBlogs'])->name('blogs.my-blogs');
+//Route::middleware('auth')->resource('blogs', BlogController::class)->only(['create']);
 
 //Subscribe Route
 Route::post('/subscriber/store', [SubscriberController::class, 'store'])->name('subscriber.store');
